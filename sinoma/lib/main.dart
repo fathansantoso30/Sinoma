@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sinoma/views/home_screen.dart';
+import 'package:get/get.dart';
+import 'package:sinoma/routes/app_pages.dart';
+import 'package:sinoma/routes/app_routes.dart';
 
 void main() {
   runApp(MyApp());
@@ -8,9 +10,10 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: true,
-      home: HomeScreen(),
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      initialRoute: AppRoutes.DASHBOARD,
+      getPages: AppPages.list,
     );
   }
 }
