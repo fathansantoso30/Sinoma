@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "562291123387",
+    "firebase_url": "https://sinoma-4f995-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sinoma-4f995",
+    "storage_bucket": "sinoma-4f995.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562291123387:android:efa6a712fb1f52e7b1b59e",
+        "android_client_info": {
+          "package_name": "com.sinoma.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562291123387-asreid6u527kg6nf3jit82vqnvdi3q2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sinoma.app",
+            "certificate_hash": "7e63219743dbdfc61fc2a47c77ea98b5fb60a0ea"
+          }
+        },
+        {
+          "client_id": "562291123387-3kj6fselke5fri9co7lues9qhgj8di67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLBl-8FguR9mPQl62BQI252UlwpkPBwxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562291123387-3kj6fselke5fri9co7lues9qhgj8di67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

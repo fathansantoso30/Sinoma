@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 0,
+        "title" : "Tentang Kanker Mulut",
+        "imagePath" : "assets/images/home_pendahuluan.jpg",
+        "desc" : "Kanker mulut merupakan pertumbuhan jaringan abnormal yang terjadi di lapisan dalam mulut, lidah, bibir, dan tenggorokan bagian atas. Kanker mulut ini termasuk dalam kategori 10 kanker paling banyak yang menyerang manusia. Penyebab paling umum kanker mulut meliputi kebiasaan merokok dan mengonsumsi minuman beralkohol. Pengetahuan dan kewaspadaan terhadap kanker mulut merupakan hal yang harus diprioritaskan karena dapat mencegah dan mengurangi angka kejadian penyakit ini.\n Kanker mulut diawali dengan pertumbuhan sel-sel yang tidak terkontrol. Penyakit ini seringkali dimulai sebagai bercak putih tanpa rasa sakit. Bercak ini kemudian menebal dan berkembang menjadi bercak merah. Bercak ini akan berubah menjadi benjolan yang semakin lama akan terus tumbuh membesar. Apabila kanker ini terjadi di bibir, biasanya terlihat seperti ulkus pengerasan kulit yang tidak kunjung sembuh, dan tumbuh perlahan. Apabila kanker sudah semakin parah, akan memunculkan gejala lain seperti kesulitan atau rasa nyeri saat menelan, adanya benjolan baru atau benjolan di leher, pembengkakan di mulut, atau perasaan mati rasa di mulut atau bibir."
+    },
+    {
+        "id" : 1,
+        "title" : "Epidemiologi",
+        "imagePath" : "assets/images/home_epidemiologi.jpg",
+        "desc" : "Sepanjang tahun 2020, penambahan kasus kanker mulut terjadi hingga mencapai 377.713 kasus di seluruh dunia. Di antara angka tersebut, sebanyak 5.780 kasus terjadi di Indonesia dengan tren insidensi yang terus meningkat dibandingkan tahun-tahun sebelumnya. Dengan angka yang besar tersebut, kanker mulut menempati peringkat keenam penyebab kanker terbesar di seluruh dunia. Sayangnya, data statistik menunjukkan angka 5-year survival penyakit ini hanya mencapai 50%. Artinya, persentase orang yang hidup hingga 5 tahun atau lebih sejak terdiagnosa kanker mulut hanya sekitar 50 dari 100 orang. Angka tersebut menjadi jauh lebih kecil apabila kanker baru terdeteksi pada tahap parah. Padahal, hingga saat ini data yang ada menunjukkan hanya sekitar sepertiga dari seluruh kasus kanker mulut dapat terdeteksi pada tahap awal.\n Kanker mulut paling banyak terjadi pada pasien berusia 40 tahun, namun biasanya baru terdiagnosa ketika pasien berusia 60-65 tahun. Beberapa penelitian menunjukkan penyakit ini lebih banyak terjadi pada laki-laki daripada perempuan dalam hubungannya dengan tingkat kebiasaan merokok. Pasien yang terdiagnosa dengan kanker mulut biasanya memiliki resiko lebih besar untuk terkena penyakit keganasan lain."
+    },
+    {
+        "id" : 2,
+        "title" : "Faktor dan Resiko",
+        "imagePath" : "assets/images/home_faktor.jpg",
+        "desc" : "Faktor resiko mencakup beberapa hal yang dapat meningkatkan resiko terkena kanker mulut; antara lain terdiri dari : Konsumsi bahan yang mengandung tembakau. Kebiasaan menyirih (campuran daun sirih dengan pinang). Konsumsi alkohol. Paparan sinar matahari UV (kanker bibir). Konsumsi marijuana. Adanya permasalahan kesehatan gigi dan mulut yang buruk. Menderita penyakit seperti HIV, HSV, dan HPV. Faktor genetik."
+    },
+    {
+        "id" : 3,
+        "title" : "Tanda dan Gejala",
+        "imagePath" : "assets/images/home_tanda.jpg",
+        "desc" : "Kapan kita harus khawatir suatu luka/tanda di mulut adalah kanker mulut? Berikut ini beberapa tanda dan gejala yang dapat diwaspadai merupakan awal dari kanker mulut: Bercak putih atau merah pada mulut atau lidah. Sariawan yang terasa sakit dan tidak sembuh dalam beberapa minggu. Benjolan yang muncul secara tiba-tiba dan tidak kunjung hilang di mulut atau leher. Mati rasa atau perubahan yang tidak biasa pada bibir atau lidah. Sulit atau sakit saat menelan. Perubahan pelafalan saat bicara. Gigi goyang atau lepas yang tidak kunjung sembuh setelah dicabut.\n Hal-hal di atas dapat lebih diperhatikan apabila anda mempunyai kebiasaan merokok atau mengkonsumsi alkohol. Apabila anda mempunyai tanda dan gejala yang mengganggu lebih dari dua minggu, anda dapat segera menghubungi dokter gigi terdekat."
+    },
+    {
+        "id" : 4,
+        "title" : "Diagnosis & Cancer Staging",
+        "imagePath" : "assets/images/home_diagnosis.jpg",
+        "desc" : "Tindakan biopsi merupakan gold-standard untuk mendiagnosis penyakit kanker mulut. Tindakan ini dilakukan dengan mengambil sampel jaringan untuk diperiksa di laboratorium. Tindakan biopsi biasanya dilakukan apabila dokter spesialis penyakit mulut menemukan gejala atau luka yang mencurigakan pada rongga mulut pasien.\n Staging dilakukan untuk menentukan sejauh mana tingkat perluasan kanker yang terjadi. Secara umum, digolongkan menjadi : \n Stadium 1\t: Jaringan kanker berukuran <2 cm tanpa penyebaran pada jaringan tubuh lainnya. \n Stadium 2\t: Jaringan kanker berukuran antara 2 hingga 4 cm tanpa adanya penyebaran pada jaringan tubuh lainnya. \nStadium 3\t: Jaringan kanker berukuran lebih dari 4 cm atau terdapat tanda-tanda penyebaran pada kelenjar getah bening. \nStadium 4\t: Terjadi pembesaran kelenjar getah bening akibat kanker yang menandakan penyebaran penyakit ini telah mencapai organ tubuh lainnya."
+    },
+    {
+        "id" : 5,
+        "title" : "Pencegahan",
+        "imagePath" : "assets/images/home_pencegahan.jpg",
+        "desc" : "Cara mencegah kanker yang paling umum adalah deteksi dini dan pengobatan yang tepat waktu. Pencegahan kanker mulut yang paling mudah dilakukan adalah dengan mengubah gaya hidup dan menekan faktor pemicu yang ada. Selain itu, edukasi tentang kanker mulut bagi mereka yang mempunyai resiko terkena kanker mulut mempunyai peran penting untuk mencegah timbulnya kanker ini. Tentunya hal-hal diatas harus diimbangi dengan pembaharuan layanan kesehatan mengenai mulut."
+    },
+    {
+        "id" : 6,
+        "title" : "Pengobatan",
+        "imagePath" : "assets/images/home_pengobatan.jpg",
+        "desc" : "Pengobatan yang dilakukan pada kanker mulut umumnya tergantung pada keparahan dan lokasi terjadinya kanker. Beberapa pengobatan untuk mengobati kanker mulut antara lain seperti terapi radiasi, terapi koadjutant (kemoterapi), dan pembedahan. Pengobatan utama yang diberikan merupakan tindakan pembedahan dengan mengangkat jaringan yang mengalami kanker. Pada kanker mulut yang terjadi di area bibir, tindakan ini bahkan dapat meningkatkan 5-year survival rate secara signifikan hingga 90%. Untuk kanker yang telah mencapai stadium lanjut, tindakan kemoterapi biasanya diberikan sebagai pengobatan lanjutan pasca pembedahan untuk mencegah timbulnya kanker kembali."
+    },
+    {
+        "id" : 7,
+        "title" : "Contoh Kanker Mulut",
+        "imagePath" : "assets/images/home_contoh.jpg",
+        "desc" : "assets/images/home_contoh2.png"
+    }
+]
