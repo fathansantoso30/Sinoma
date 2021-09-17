@@ -14,7 +14,7 @@ import 'package:sinoma/widgets/policy_dialog.dart';
 // ignore: must_be_immutable
 class RegisterWidget extends StatelessWidget {
   var _hidePassword = true.obs;
-  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+  static final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);

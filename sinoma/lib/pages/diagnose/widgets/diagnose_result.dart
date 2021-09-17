@@ -87,11 +87,14 @@ class DiagnoseResult extends StatelessWidget {
                                 ),
                               ),
                               Expanded(
-                                child: Text(
-                                  "Hasil identifikasi ini berupa prediksi dan bukan diagnosis medis",
-                                  style: lightredText,
-                                  maxLines: 4,
-                                  overflow: TextOverflow.ellipsis,
+                                child: Padding(
+                                  padding: const EdgeInsets.only(right: 20),
+                                  child: Text(
+                                    "Hasil identifikasi ini berupa prediksi dan bukan diagnosis medis",
+                                    style: lightredText,
+                                    maxLines: 4,
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
                                 ),
                               )
                             ],

@@ -13,7 +13,7 @@ import 'package:sinoma/widgets/button_custom.dart';
 // ignore: must_be_immutable
 class LoginWidget extends StatelessWidget {
   var _hidePassword = true.obs;
-  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+  static final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);

@@ -36,7 +36,7 @@ class SettingsPage extends StatelessWidget {
                         icons: Icons.info_rounded,
                         iconStyle: IconStyle(),
                         title: 'Tentang Sinoma',
-                        subtitle: "Pelajari lebih lanjut tentang sinoma",
+                        subtitle: "Informasi tentang sinoma",
                       ),
                       SettingsItem(
                         onTap: () {
