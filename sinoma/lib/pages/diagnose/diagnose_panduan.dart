@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sinoma/pages/help/help_page.dart';
 import 'package:sinoma/themes/const.dart';
 
+/// Bagian skrining / diagnosa dari dashboard
 class DiagnosePanduan extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

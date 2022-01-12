@@ -8,6 +8,7 @@ import 'package:sinoma/widgets/loading.dart';
 import 'constants/firebase.dart';
 
 void main() async {
+  // Initialize auth controller
   WidgetsFlutterBinding.ensureInitialized();
   await initialization.then((value) {
     Get.put(AppController());

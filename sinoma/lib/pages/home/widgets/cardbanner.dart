@@ -5,6 +5,7 @@ import 'package:sinoma/models/article_data.dart';
 import 'package:sinoma/pages/home/widgets/article_detail.dart';
 import 'package:sinoma/themes/const.dart';
 
+/// Menampilkan List Cardbanner yang ada di Home
 class CardBanner extends StatelessWidget {
   final String imgpath;
   final String title;
@@ -69,53 +70,3 @@ class CardBanner extends StatelessWidget {
     );
   }
 }
-
-// class CardBanner extends StatelessWidget {
-//   final String imgpath;
-//   final String title;
-//   final Function onTap;
-//   final int tag;
-
-//   const CardBanner({Key key, this.imgpath, this.title, this.onTap, this.tag})
-//       : super(key: key);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     SizeConfig().init(context);
-//     return Card(
-//       clipBehavior: Clip.antiAlias,
-//       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-//       child: Column(
-//         children: [
-//           Stack(
-//             children: [
-//               Hero(
-//                 tag: tag,
-//                 child: Image.asset(
-//                   imgpath,
-//                   fit: BoxFit.cover,
-//                   width: SizeConfig.safeBlockHorizontal * 100,
-//                   height: SizeConfig.safeBlockVertical * 22,
-//                 ),
-//               ),
-//               // Image.asset(
-//               //   imgpath,
-//               //   fit: BoxFit.cover,
-//               //   width: SizeConfig.safeBlockHorizontal * 100,
-//               //   height: SizeConfig.safeBlockVertical * 22,
-//               // ),
-//               Positioned(
-//                   bottom: 16,
-//                   right: 16,
-//                   left: 16,
-//                   child: Text(
-//                     title,
-//                     style: whiteCardTitle,
-//                   )),
-//             ],
-//           ),
-//         ],
-//       ),
-//     );
-//   }
-// }

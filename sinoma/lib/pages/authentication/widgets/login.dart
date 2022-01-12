@@ -10,6 +10,7 @@ import 'package:sinoma/pages/authentication/widgets/text_bottom.dart';
 import 'package:sinoma/themes/const.dart';
 import 'package:sinoma/widgets/button_custom.dart';
 
+/// Login Widget
 // ignore: must_be_immutable
 class LoginWidget extends StatelessWidget {
   var _hidePassword = true.obs;

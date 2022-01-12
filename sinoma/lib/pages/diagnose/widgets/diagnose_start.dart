@@ -26,7 +26,7 @@ class DiagnoseStartPage extends StatelessWidget {
                   style: blackTitle,
                 ),
                 Text(
-                  'Diagnosa mulut anda dan isi survei kesehatan kami',
+                  'Skrining mulut anda dan isi survei kesehatan kami',
                   style: greySubtitle,
                 ),
               ],

@@ -1,3 +1,5 @@
+/// Kode ini digunakan untuk mendapatkan path asset dan path model TensorFlow
+
 final String imageAssetsRoot = "assets/images/";
 final String modelAssetsRoot = "assets/model/";
 

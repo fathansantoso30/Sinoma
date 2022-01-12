@@ -1,5 +1,6 @@
 import 'package:sinoma/constants/asset_path.dart';
 
+/// model untuk data artikel yang dipakai di home page
 class ArticleData {
   int tag;
   String title;
@@ -10,6 +11,7 @@ class ArticleData {
 
   static List<ArticleData> article;
 
+  /// menambahkan data sesuai model diatas, tag berfungsi untuk animasi Hero
   ArticleData.init() {
     article = [];
     article.add(ArticleData(
@@ -69,30 +71,3 @@ class ArticleData {
     ));
   }
 }
-
-// class ArticleDataModel {
-//   int id;
-//   String title;
-//   String imagePath;
-//   String desc;
-
-//   // Constructor
-//   ArticleDataModel({this.id, this.title, this.imagePath, this.desc});
-
-//   // Method that assign values to respective datatype variables
-//   ArticleDataModel.fromJson(Map<String, dynamic> json) {
-//     id = json['id'];
-//     title = json['title'];
-//     imagePath = json['imagePath'];
-//     desc = json['desc'];
-//   }
-
-//   Map<String, dynamic> toJson() {
-//     final Map<String, dynamic> data = new Map<String, dynamic>();
-//     data['id'] = this.id;
-//     data['title'] = this.title;
-//     data['imagepath'] = this.imagePath;
-//     data['desc'] = this.desc;
-//     return data;
-//   }
-// }

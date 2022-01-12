@@ -2,6 +2,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:sinoma/constants/sizeConfig.dart';
 
+/// Warna dan font yang digunakan
+
 Color darkblueColor = Color(0xff2F2E41);
 Color blueColor = Color(0xff1FA2FF);
 Color greyColor = Color(0xff7D7D7D);

@@ -11,7 +11,7 @@ class DiagnoseController extends GetxController {
   File imageFile;
   final picker = ImagePicker();
 
-  // Method to pick image from camera
+  /// fungsi untuk mengambil gambar dari kamera langsung
   pickCameraImage() async {
     showLoading();
     try {
@@ -28,7 +28,7 @@ class DiagnoseController extends GetxController {
     }
   }
 
-  // Method to pick image from gallery
+  /// fungsi untuk mengambil gambar dari galeri
   pickGalleryImage() async {
     showLoading();
     try {

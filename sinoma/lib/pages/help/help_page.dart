@@ -4,6 +4,7 @@ import 'package:sinoma/constants/sizeConfig.dart';
 import 'package:sinoma/pages/help/cardHelp.dart';
 import 'package:sinoma/themes/const.dart';
 
+/// Tampilan dari bagian Help dari dashboard
 class HelpPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

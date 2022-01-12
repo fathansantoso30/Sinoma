@@ -3,6 +3,8 @@ import 'package:get/get.dart';
 import 'package:sinoma/constants/sizeConfig.dart';
 import 'package:sinoma/themes/const.dart';
 
+/// Bagian dari halaman home / awal ketika aplikasi dibuka
+/// Class ini menampilkan detail dari artikel yang ada di Home
 class ArticleDetail extends StatelessWidget {
   final article = Get.arguments;
 

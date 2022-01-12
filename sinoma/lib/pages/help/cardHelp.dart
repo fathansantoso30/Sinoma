@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sinoma/constants/sizeConfig.dart';
 import 'package:sinoma/themes/const.dart';
 
+/// Digunakan untuk mempermudah pembuatan bagian help dari dashboard dengan Card
 class CardHelpText extends StatelessWidget {
   final String text;
 

@@ -7,6 +7,7 @@ import 'package:sinoma/pages/authentication/widgets/form_input_field_with_icon.d
 import 'package:sinoma/themes/const.dart';
 import 'package:sinoma/widgets/button_custom.dart';
 
+/// Widget bagian Reset Password
 class ResetPassword extends StatelessWidget {
   static final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 

@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-// import 'package:get/get.dart';
 import 'package:sinoma/constants/asset_path.dart';
 import 'package:sinoma/constants/sizeConfig.dart';
 
 import 'package:sinoma/pages/home/widgets/cardbanner.dart';
 import 'package:sinoma/themes/const.dart';
 
+/// Tampilan Home yang merupakan bagian dari dashboard
 class HomePage extends StatelessWidget {
-  // var userDisplayName = Get.arguments;
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
@@ -20,7 +19,7 @@ class HomePage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Sinoma', // TODO : Tambah username
+                  'Sinoma',
                   style: sinomaTitle,
                 ),
                 Text(

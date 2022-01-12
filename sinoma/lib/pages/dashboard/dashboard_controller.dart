@@ -5,6 +5,7 @@ import 'package:sinoma/pages/help/help_page.dart';
 import 'package:sinoma/pages/home/home_page.dart';
 import 'package:sinoma/pages/settings/settings_page.dart';
 
+/// Mengatur navigasi pada dashboard
 class DashboardController extends GetxController {
   int _navigatorValue = 0;
 

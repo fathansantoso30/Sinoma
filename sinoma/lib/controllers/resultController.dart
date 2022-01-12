@@ -5,6 +5,7 @@ import 'package:sinoma/constants/asset_path.dart';
 import 'package:sinoma/themes/const.dart';
 import 'package:tflite/tflite.dart';
 
+/// Controller yang mengatur pemodelan dan hasilnya
 class ResultController extends GetxController {
   var loading = true.obs;
   var image = Get.arguments;
@@ -12,7 +13,8 @@ class ResultController extends GetxController {
   var isCancer = true.obs;
   TextStyle stylehasil;
   String hasil;
-  // Load model on start
+
+  /// Load model on start
   @override
   void onInit() {
     super.onInit();
@@ -28,20 +30,19 @@ class ResultController extends GetxController {
     }
   }
 
-  // Dispose Tflite
+  /// Dispose Tflite
   @override
   void dispose() {
     super.dispose();
     Tflite.close();
   }
 
-  // Load Tflite Model method
+  /// Load Tflite Model method
   loadModel() async {
-    await Tflite.loadModel(
-        model: modelTF, labels: labelTF); // TODO : Deploy Model
+    await Tflite.loadModel(model: modelTF, labels: labelTF);
   }
 
-  // classify method
+  /// method untuk klasifikasi
   classifyImage(File image) async {
     var output = await Tflite.runModelOnImage(
       path: image.path,
@@ -63,12 +64,14 @@ class ResultController extends GetxController {
     loading.value = false;
   }
 
+  /// mengatur warna text berdasarkan hasil
   void styleController() {
     isCancer.value == true
         ? stylehasil = lightredText
         : stylehasil = lightgreenText;
   }
 
+  /// men-set hasil klasifikasi ke variabel hasil
   void hasilController() {
     isCancer.value == true
         ? hasil =

@@ -8,6 +8,7 @@ import 'package:sinoma/pages/authentication/widgets/register.dart';
 import 'package:sinoma/pages/authentication/widgets/text_bottom.dart';
 import 'package:sinoma/themes/const.dart';
 
+/// Halaman Autentikasi (Login dan Register)
 class AuthPage extends StatelessWidget {
   final AppController _appController = Get.find();
 

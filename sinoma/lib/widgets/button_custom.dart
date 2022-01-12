@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sinoma/constants/sizeConfig.dart';
 import 'package:sinoma/themes/const.dart';
-// import 'package:sinoma/themes/const.dart';
-// import 'package:sinoma/widgets/text_custom.dart';
 
+/// Dipakai untuk membuat button
 class CustomButton extends StatelessWidget {
   final String text;
   final Color txtColor;
@@ -43,33 +42,5 @@ class CustomButton extends StatelessWidget {
         ),
       ),
     );
-    // return GestureDetector(
-    //   onTap: onTap,
-    //   child: Container(
-    //     width: SizeConfig.safeBlockHorizontal * 82,
-    //     margin: EdgeInsets.only(top: 20),
-    //     child: PhysicalModel(
-    //       color: Colors.grey.withOpacity(.4),
-    //       elevation: 5,
-    //       borderRadius: BorderRadius.circular(8),
-    //       child: Container(
-    //           width: SizeConfig.safeBlockHorizontal * 82,
-    //           decoration: BoxDecoration(
-    //             borderRadius: BorderRadius.circular(8),
-    //             color: bgColor ?? blueColor,
-    //           ),
-    //           child: Container(
-    //             margin: EdgeInsets.all(14),
-    //             alignment: Alignment.center,
-    //             child: CustomText(
-    //               text: text,
-    //               color: txtColor ?? whiteColor,
-    //               size: SizeConfig.safeBlockHorizontal * 5,
-    //               weight: FontWeight.normal,
-    //             ),
-    //           )),
-    //     ),
-    //   ),
-    // );
   }
 }

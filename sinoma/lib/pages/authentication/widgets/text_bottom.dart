@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sinoma/constants/sizeconfig.dart';
 
+/// Widget RichText bagian bawah, gesture detector untuk men-switch tampilan
+/// antara widget login dan widget register
 class TextBottomWidget extends StatelessWidget {
   final Function onTap;
   final String text1;

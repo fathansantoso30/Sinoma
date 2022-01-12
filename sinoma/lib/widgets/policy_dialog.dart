@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:sinoma/themes/const.dart';
 
+/// Tampilan laman ketentuan / policy
 class PolicyDialog extends StatelessWidget {
   PolicyDialog({
     Key key,

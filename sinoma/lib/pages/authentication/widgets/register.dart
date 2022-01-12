@@ -11,6 +11,7 @@ import 'package:sinoma/widgets/button_custom.dart';
 import 'package:get/get.dart';
 import 'package:sinoma/widgets/policy_dialog.dart';
 
+/// Register Widget
 // ignore: must_be_immutable
 class RegisterWidget extends StatelessWidget {
   var _hidePassword = true.obs;

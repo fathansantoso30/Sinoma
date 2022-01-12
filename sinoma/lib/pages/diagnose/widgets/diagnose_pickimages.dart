@@ -6,6 +6,7 @@ import 'package:sinoma/controllers/diagnoseController.dart';
 import 'package:sinoma/themes/const.dart';
 import 'package:sinoma/widgets/button_custom.dart';
 
+/// Tampilan pilih gambar yang akan dirun ke model
 class DiagnosePickImages extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

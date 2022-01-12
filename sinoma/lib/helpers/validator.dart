@@ -1,6 +1,6 @@
-// matching various patterns for kinds of data
 import 'package:get/get.dart';
 
+/// validasi di form field untuk berbagai macam input
 class Validator {
   Validator();
 

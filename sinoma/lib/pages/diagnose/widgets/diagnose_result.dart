@@ -6,6 +6,7 @@ import 'package:sinoma/pages/dashboard/dashboard_page.dart';
 import 'package:sinoma/themes/const.dart';
 import 'package:sinoma/widgets/button_custom.dart';
 
+/// Tampilan hasil diagnosa
 class DiagnoseResult extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

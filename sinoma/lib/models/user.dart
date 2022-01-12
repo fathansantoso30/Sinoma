@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+/// Model User yang disimpan di firestore
 class UserModel {
   static const ID = "id";
   static const NAME = "name";

@@ -3,6 +3,7 @@ import 'package:sinoma/constants/asset_path.dart';
 import 'package:sinoma/constants/sizeConfig.dart';
 import 'package:sinoma/themes/const.dart';
 
+/// Tampilan tentang Sinoma, bagian dari Settings
 class TentangSinoma extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

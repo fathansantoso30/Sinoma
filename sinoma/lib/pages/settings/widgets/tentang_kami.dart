@@ -3,6 +3,7 @@ import 'package:sinoma/constants/asset_path.dart';
 import 'package:sinoma/constants/sizeConfig.dart';
 import 'package:sinoma/themes/const.dart';
 
+/// Tampilan TentangKami / Pengembang, bagian dari settings
 class TentangKami extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

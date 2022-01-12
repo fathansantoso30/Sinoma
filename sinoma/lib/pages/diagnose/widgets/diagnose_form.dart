@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:sinoma/themes/const.dart';
 import 'package:survey_kit/survey_kit.dart';
 
+/// Bagian Form dai diagnosa
+/// NB: Belum terdapat fungsi untuk mengambil hasil dari form
 class DiagnoseForm extends StatefulWidget {
   @override
   _DiagnoseFormState createState() => _DiagnoseFormState();

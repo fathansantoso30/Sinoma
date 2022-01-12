@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sinoma/themes/const.dart';
 
+/// Widget Untuk Form Field
 class FormInputFieldWithIcon extends StatelessWidget {
   FormInputFieldWithIcon(
       {this.controller,

@@ -10,6 +10,7 @@ import 'package:sinoma/pages/settings/widgets/tentang_kami.dart';
 import 'package:sinoma/pages/settings/widgets/tentang_sinoma.dart';
 import 'package:sinoma/widgets/policy_dialog.dart';
 
+/// Tampilan Settings
 class SettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

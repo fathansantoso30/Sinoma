@@ -4,6 +4,7 @@ import 'package:sinoma/constants/sizeConfig.dart';
 import 'package:sinoma/pages/dashboard/dashboard_controller.dart';
 import 'package:sinoma/themes/const.dart';
 
+/// Widget tampilan dashboard + navigationbar
 class DashboardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
