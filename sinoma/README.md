@@ -1,6 +1,17 @@
 # Sinoma
 
-Aplikasi Skrining dini kanker mulut berbasis Machine Learning
+Aplikasi Skrining dini kanker mulut berbasis Machine Learning, App ini dibuat menggunakan Flutter dan Firebase. Pada intinya, flutter digunakan untuk membuat tampilan aplikasi dan Firebase digunakan untuk proses auth user dalam versi ini. Terdapat beberapa catatan untuk pengembang Sinoma selanjutnya, antara lain :
+
+* Hasil survey yang dilakukan pengguna di bagian diagnosis belum dapat diintegrasikan ke Firebase.
+* Model TensorFlow yang digunakan pada aplikasi saat ini masih versi yang lama dikarenakan besarnya size dari model tersebut sehingga kurang cocok apabila model tersebut di run langsung di device pengguna.
+
+Selain hal diatas, beberapa hal yang belum sempat saya lakukan sebagai pengembang aplikasi sebelumnya antara lain : 
+
+* Integrasi hasil diagnosis + foto yang dipilih user ke dalam database di Firebase.
+* Menambah beberapa animasi transition antar page agar lebih halus
+* Membuat kode untuk mengecek jaringan apabila kebutuhan jaringan di aplikasi sudah penting, contoh: run model di cloud, integrasi hasil online, dll.
+* opsi lain jika kesulitan mengembangkan fitur survey dalam aplikasi yaitu dengan memasukkan link survey yang diakses melalui browser device.
+* Membuat panduan penggunaan aplikasi yang menarik dan lebih mudah dipahami oleh user.
 
 ## Cara Penggunaan
 
@@ -97,6 +108,9 @@ Untuk menampilkan file ekstensi .md dan digunakan untuk menampilkan bagian priva
 
 * #### animations 2.0.1
 Menambahkan beberapa animasi di beberapa widget.
+
+## Catatan Tambahan
+Saya menyarankan untuk cukup meng-clone / fork project ini dari github dan membuat repo baru agar dapat dimantain lebih mudah. Saya selaku pengembang aplikasi ini sebelumnya mohon maaf apabila terdapat beberapa kekurangan maupun ketidakjelasan pada kualitas kode saya karena masih dalam tahap belajar. Sekian & Terima Kasih, saya ucapkan kepada pengembang selanjutnya agar dimudahkan dalam pengembangan aplikasi ini. Sukses selalu, Fathan HS.
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
